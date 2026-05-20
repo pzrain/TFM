@@ -44,7 +44,7 @@ For inference, run the following command:
 ```bash
 CUDA_VISIBLE_DEVICES=0 python examples/wanvideo/model_inference/Wan2.1-T2V-14B.py
 ```
-To reproduce our results, we recommend running inference on a single A100 40GB GPU. The inference script first loads the base Wan2.1-T2V-14B model, then applies our fine-tuned LoRA weights, and finally reads prompts from `/home/panzr/TFM/examples/wanvideo/model_inference/prompts.txt`. The generated results will be saved in the `results` directory. To use your own prompts, simply add them to `prompts.txt`.
+To reproduce our results, we recommend running inference on a single A100 40GB GPU. The inference script first loads the base Wan2.1-T2V-14B model, then applies our fine-tuned LoRA weights, and finally reads prompts from `examples/wanvideo/model_inference/prompts.txt`. The generated results will be saved in the `results` directory. To use your own prompts, simply add them to `prompts.txt`.
 
 ## Acknowledgements
 This codebase is built upon [Diffsynth-Studio](https://github.com/modelscope/diffsynth-studio). The method is built upon [Wan2.1](https://github.com/Wan-Video/Wan2.1).
