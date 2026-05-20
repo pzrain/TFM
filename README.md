@@ -3,7 +3,7 @@
 > 
 > Zirui Pan, Xin Wang, Yipeng Zhang, Yuwei Zhou, Wenwu Zhu
 >
-> Department of Computer Science and Technology, BNRIST, Tsinghua University, Beijing, China
+> Department of Computer Science and Technology, BNRist, Tsinghua University, Beijing, China
 
 ## Overview
 This is the official implementation of ICML 2026 paper [*Temporal-aware Flow Matching for Video Generation with Temporally Coherent Motion*](https://mn.cs.tsinghua.edu.cn/xinwang/PDF/papers/2026_Temporal-aware%20Flow%20Matching%20for%20Video%20Generation%20with%20Temporally%20Coherent%20Motion.pdf). The fine-tuned lora weights for base Wan2.1-T2V-14B model can be downloaded from [Goolge Drive](https://drive.google.com/file/d/1nyvi83HOcooH9K_vD7TcY2bxM4BLFRXV/view?usp=sharing). For animated video results, please refer to our [Project Page](https://pzrain.github.io/tfm).
