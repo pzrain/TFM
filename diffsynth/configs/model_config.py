@@ -3,7 +3,7 @@ from typing_extensions import Literal, TypeAlias
 from ..models.wan_video_dit import WanModel
 from ..models.wan_video_text_encoder import WanTextEncoder
 from ..models.wan_video_image_encoder import WanImageEncoder
-from ..models.wan_video_vae import WanVideoVAE, WanVideoVAE38
+from ..models.wan_video_vae import WanVideoVAE, WanVideoVAE
 from ..models.wan_video_motion_controller import WanMotionControllerModel
 from ..models.wan_video_vace import VaceWanModel
 
@@ -33,7 +33,7 @@ model_loader_configs = [
     (None, "5941c53e207d62f20f9025686193c40b", ["wan_video_image_encoder"], [WanImageEncoder], "civitai"),
     (None, "1378ea763357eea97acdef78e65d6d96", ["wan_video_vae"], [WanVideoVAE], "civitai"),
     (None, "ccc42284ea13e1ad04693284c7a09be6", ["wan_video_vae"], [WanVideoVAE], "civitai"),
-    (None, "e1de6c02cdac79f8b739f4d3698cd216", ["wan_video_vae"], [WanVideoVAE38], "civitai"),
+    (None, "e1de6c02cdac79f8b739f4d3698cd216", ["wan_video_vae"], [WanVideoVAE], "civitai"),
     (None, "dbd5ec76bbf977983f972c151d545389", ["wan_video_motion_controller"], [WanMotionControllerModel], "civitai"),
 ]
 huggingface_model_loader_configs = [
