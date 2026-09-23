@@ -26,6 +26,7 @@ Despite rapid advances in text-to-video generation, state-of-the-art generative 
 git clone https://github.com/pzrain/TFM.git
 cd TFM
 conda create -n tfm python=3.10
+conda activate tfm
 pip install -e .
 ```
 Please download the pre-trained weights of [Wan2.1-T2V-14B](https://huggingface.co/Wan-AI/Wan2.1-T2V-14B) into `models/Wan-AI/Wan2.1-T2V-14B`, and download our fine-tuned [lora weights](https://drive.google.com/file/d/1nyvi83HOcooH9K_vD7TcY2bxM4BLFRXV/view?usp=sharing) into `models/Wan-AI/tfm-lora.safetensors`.
